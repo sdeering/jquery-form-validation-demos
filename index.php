@@ -8,19 +8,6 @@
 <script type="text/javascript" src="jquery.validate.min.js"></script>
 
 
-<!-- BuySellAds Ad Code -->
-<script type="text/javascript">
-(function(){
-  var bsa = document.createElement('script');
-     bsa.type = 'text/javascript';
-     bsa.async = true;
-     bsa.src = 'http://s3.buysellads.com/ac/bsa.js';
-  (document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(bsa);
-})();
-</script>
-<!-- End BuySellAds Ad Code -->
-
-
 <title>Basic jQuery Validation Form Demo | jQuery4u</title>
 
 <link rel="stylesheet" type="text/css" href="../styles.css">
@@ -142,9 +129,6 @@ h2 {
 <body>
 <div id="page-wrap">
 
-	<?php include("../header.php"); ?>
-
-
 <div id="content">
 
 <h1>Basic jQuery Validation Form Demo</h1>
@@ -199,9 +183,6 @@ h2 {
 </p>
 
 </div>
-
-	<!-- footer (includes analytics) -->
-	<?php include("../footer.php"); ?>
 
 </div> <!-- end page wrap -->
 
